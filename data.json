@@ -1,0 +1,47 @@
+{
+  "admissions": [
+    "Admissions for BCA start in June every year.",
+    "Eligibility: 10+2 with minimum 50% marks.",
+    "Apply online through college website."
+  ],
+  "fees": [
+    "BCA annual fee: ₹40,000 (approx).",
+    "First semester fee: ₹22,000.",
+    "Fee payment: Online/Offline both available."
+  ],
+  "exams": [
+    "Semester exams: Twice a year (Dec & May).",
+    "Internal exams: Monthly.",
+    "Results declared within 30 days."
+  ],
+  "timetable": [
+    "Regular classes: 9 AM - 4 PM.",
+    "Monday-Friday: 5 periods daily.",
+    "Check college app for detailed timetable."
+  ],
+  "courses": [
+    "BCA 3-year program.",
+    "Subjects: Programming, Database, Web Dev, AI.",
+    "Semester-wise curriculum available."
+  ],
+  "events": [
+    "Annual Tech Fest: March.",
+    "Cultural Fest: February.",
+    "Sports Week: November."
+  ],
+  "holidays": [
+    "Summer Vacation: May-June.",
+    "Diwali: 3 days.",
+    "Christmas: 1 week."
+  ],
+  "results": [
+    "Results on college portal.",
+    "SMS alerts enabled.",
+    "Revaluation within 7 days."
+  ],
+  "departments": [
+    "Computer Science Dept.",
+    "Contact: 0123456780.",
+    "HOD: Dr. ABC."
+  ]
+}

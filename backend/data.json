@@ -1,0 +1,56 @@
+{
+  "admissions": [
+    "Admissions for BCA start in June every year.",
+    "Eligibility: 10+2 with minimum 50% marks in any stream.",
+    "Apply online through college website: www.college.edu/admissions",
+    "Application fee: ₹500 (non-refundable)"
+  ],
+  "fees": [
+    "BCA annual fee: ₹40,000 (approx)",
+    "First semester fee: ₹22,000",
+    "Fee payment options: Online/Offline/Cash/DD",
+    "Scholarships available for merit students"
+  ],
+  "exams": [
+    "Semester exams conducted twice a year (December & May)",
+    "Internal assessments: Monthly",
+    "Results declared within 30 days on college portal",
+    "Revaluation facility available"
+  ],
+  "timetable": [
+    "Regular classes: 9:00 AM - 4:00 PM (Monday-Friday)",
+    "Saturday: 9:00 AM - 1:00 PM",
+    "Detailed timetable available on college app",
+    "Practical classes: 2 hours daily"
+  ],
+  "courses": [
+    "BCA - 3 year full-time program",
+    "Core subjects: Programming, Database, Web Development, AI, Networking",
+    "Semester-wise curriculum available on website",
+    "Project work in final year"
+  ],
+  "events": [
+    "Annual Tech Fest 'TechVision': March",
+    "Cultural Fest 'Culrav': February", 
+    "Sports Week: November",
+    "Hackathon: Every semester"
+  ],
+  "holidays": [
+    "Summer Vacation: May 15 - June 30",
+    "Diwali Holidays: 3 days",
+    "Christmas: December 25-31",
+    "Republic Day: January 26"
+  ],
+  "results": [
+    "Semester results on college portal",
+    "SMS alerts enabled for all students",
+    "Revaluation applications within 7 days",
+    "Contact exam cell for queries"
+  ],
+  "departments": [
+    "Computer Science Department",
+    "HOD: Dr. Rajesh Kumar",
+    "Contact: 0123-4567890",
+    "Email: csdept@college.edu"
+  ]
+}

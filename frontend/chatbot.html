@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Chat Bot System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i>
+                <span>StudentBot</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="chatbot.html" class="nav-link">Chatbot</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admin.html" class="nav-link">Admin</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title animate-pop">
+                    <span class="gradient-text">Student Information</span>
+                    <br>
+                    Chat Bot System
+                </h1>
+                <p class="hero-subtitle animate-slide-up">Your 24/7 college assistant for instant answers about admissions, fees, exams, and more.</p>
+                <div class="hero-buttons animate-slide-up delay-1">
+                    <a href="chatbot.html" class="btn btn-primary">
+                        <i class="fas fa-comments"></i>
+                        Start Chat
+                    </a>
+                    <a href="about.html" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="chatbot-illustration">
+                    <div class="bot-head">
+                        <div class="bot-eyes">
+                            <div class="eye left"></div>
+                            <div class="eye right"></div>
+                        </div>
+                        <div class="bot-mouth"></div>
+                    </div>
+                    <div class="chat-bubbles">
+                        <div class="bubble bubble-1"></div>
+                        <div class="bubble bubble-2"></div>
+                        <div class="bubble bubble-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card animate-slide-up">
+                        <div class="feature-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3>Voice Responses</h3>
+                        <p>Listen to instant voice replies using advanced text-to-speech technology.</p>
+                    </div>
+                    <div class="feature-card animate-slide-up delay-1">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Smart AI</h3>
+                        <p>Intelligent keyword matching and natural language processing for accurate responses.</p>
+                    </div>
+                    <div class="feature-card animate-slide-up delay-2">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h3>Admin Panel</h3>
+                        <p>Complete admin dashboard to manage knowledge base and invalid queries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="floating-chat">
+        <a href="chatbot.html" class="chat-btn">
+            <i class="fas fa-comments"></i>
+        </a>
+    </div>
+    <div class="bot-avatar" id="botAvatar">
+    <svg viewBox="0 0 64 64" fill="none">
+        <circle cx="32" cy="32" r="30" fill="url(#paint0_linear)" stroke="white" stroke-width="4"/>
+        <defs>
+            <linearGradient id="paint0_linear" x1="32" y1="2" x2="32" y2="62" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#667eea"/>
+                <stop offset="1" stop-color="#764ba2"/>
+            </linearGradient>
+        </defs>
+        <circle cx="20" cy="22" r="6" fill="white"/>
+        <circle cx="44" cy="22" r="6" fill="white"/>
+        <circle cx="20" cy="22" r="3" fill="#333"/>
+        <circle cx="44" cy="22" r="3" fill="#333"/>
+        <path d="M24 42C24 38 32 34 40 38" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

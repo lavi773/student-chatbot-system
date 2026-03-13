@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Student Chatbot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Login Modal -->
+        <div class="login-modal" id="loginModal">
+            <div class="login-box">
+                <div class="login-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h2>Admin Login</h2>
+                </div>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="username" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Admin Dashboard -->
+        <div class="admin-dashboard" id="adminDashboard" style="display: none;">
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <i class="fas fa-robot"></i>
+                    <span>Admin Panel</span>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-item active" data-section="dashboard">
+                        <i class="fas fa-tachometer-alt"></i>
+                        Dashboard
+                    </a>
+                    <a href="#" class="nav-item" data-section="invalid">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Invalid Queries
+                    </a>
+                    <a href="#" class="nav-item" data-section="knowledge">
+                        <i class="fas fa-database"></i>
+                        Knowledge Base
+                    </a>
+                </nav>
+                <button class="logout-btn" id="logoutBtn">
+                    <i class="fas fa-sign-out-alt"></i>
+                    Logout
+                </button>
+            </aside>
+
+            <main class="admin-main">
+                <!-- Dashboard Section -->
+                <section id="dashboard" class="admin-section active">
+                    <div class="dashboard-header">
+                        <h1>Dashboard</h1>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="124">0</div>
+                                <div class="stat-label">Total Queries</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="23">0</div>
+                                <div class="stat-label">Invalid Queries</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="15">0</div>
+                                <div class="stat-label">Knowledge Items</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Invalid Queries Section -->
+                <section id="invalid" class="admin-section">
+                    <div class="section-header">
+                        <h2>Invalid Queries</h2>
+                        <button class="btn btn-primary" id="clearAllInvalid">Clear All</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Query</th>
+                                    <th>Date</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="invalidTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Knowledge Base Section -->
+                <section id="knowledge" class="admin-section">
+                    <div class="section-header">
+                        <h2>Add New Knowledge</h2>
+                    </div>
+                    <form id="addKnowledgeForm" class="knowledge-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label>Keyword/Topic</label>
+                                <input type="text" id="keyword" placeholder="e.g., admission, fees" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Answer</label>
+                                <textarea id="answer" rows="3" placeholder="Enter the response..." required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Knowledge</button>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
